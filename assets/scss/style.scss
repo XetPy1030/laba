@@ -265,6 +265,7 @@ button {
 
 .section2 {
     position: relative;
+    background-color: black;
 
     &__carousel- {
         &right {
@@ -500,6 +501,11 @@ button {
             }
         }
     }
+}
+
+.section1-section2 {
+    height: 3px;
+    background: #777777;
 }
 
 // нижняя часть страницы

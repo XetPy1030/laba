@@ -237,6 +237,7 @@ button {
 
 .section2 {
   position: relative;
+  background-color: black;
 }
 .section2__carousel-right {
   position: absolute;
@@ -470,6 +471,11 @@ button {
   }
 }
 
+.section1-section2 {
+  height: 3px;
+  background: #777777;
+}
+
 .section5 {
   background: #373a3c;
   padding: 0 100px;
@@ -479,6 +485,7 @@ button {
   flex-direction: row;
   width: 80%;
   justify-content: space-between;
+  padding-left: 65px;
 }
 @media screen and (max-width: 321px) {
   .section5__top {
